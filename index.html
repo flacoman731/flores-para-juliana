@@ -11,28 +11,41 @@
             align-items: center; 
             height: 100vh; 
             flex-direction: column; 
-            font-family: 'Segoe UI', sans-serif; 
+            font-family: 'Arial', sans-serif; 
             margin: 0;
-            text-align: center;
+        }
+        .ramo { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            max-width: 300px;
+            gap: 10px;
+            margin-bottom: 30px;
         }
         .rosa { 
-            font-size: 80px; 
+            font-size: 50px; 
             animation: flotar 3s infinite ease-in-out; 
-            margin-bottom: 20px;
         }
         h1 { 
             color: #d81b60; 
+            font-size: 1.6rem; 
+            text-align: center;
             padding: 0 20px;
-            font-size: 1.5rem;
         }
         @keyframes flotar { 
             0%, 100% { transform: translateY(0); } 
-            50% { transform: translateY(-20px); } 
+            50% { transform: translateY(-15px); } 
         }
     </style>
 </head>
 <body>
-    <div class="rosa">🌹</div>
-    <h1> te quiero juliii </h1>
+    <div class="ramo">
+        <div class="rosa">🌹</div>
+        <div class="rosa">🌹</div>
+        <div class="rosa">🌹</div>
+        <div class="rosa">🌹</div>
+        <div class="rosa">🌹</div>
+    </div>
+    <h1>Para Juliana, este pequeño detalle de flores para alegrar tu día.</h1>
 </body>
 </html>
